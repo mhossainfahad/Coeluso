@@ -1,0 +1,507 @@
+/*
+=> Project Name: Coeluso Music App
+=> Developed By: Mahmud Hossain
+=> GitHub: https://github.com/mhossainfahad
+=> Contact: mahmudhossain.fahad@gmail.com 
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0a2345;
+}
+
+/* header_section */
+
+.first_sec_first_row {
+    padding: 0 0 80px 0;
+}
+
+.one_one {
+    padding: 30px 0 0 0px;    
+}
+
+.one_one img {
+    width: 150px;
+}
+
+.one_two {
+    padding: 35px 0 0 0;     
+}
+
+.one_two a {
+    font-size: 25px;
+    color: #2a5da3;
+}
+
+/* slider_section */
+
+.second_sec_first_row {
+    padding: 0 0 100px 0;
+}
+
+.two_one {
+	padding: 0 0 20px 0;
+}
+
+.two_one h1 span,
+.four_two h1 span,
+.fifth_sec_first_row h1 span{
+	color: #2a5da3;
+}
+
+.two_one h1{
+	color: #fff;
+}
+
+.two_one p {
+	color: #2a5da3;
+    padding: 0 0 40px 0;
+}
+
+.btn_explore {
+    font-size: 11px;
+    font-weight: 100;
+    background: #FF3334;
+    color: white;
+    border: 1px solid #FF3334;
+    padding: 13px 28px;
+    border-radius: 36px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+.btn_explore:hover {
+    background: transparent;
+    color: white;
+    border: 1px solid #2A5DA3;
+    text-decoration: none;
+}
+
+/* stream_section */
+
+.stream_section {
+    background-image: url(../img/stream_background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+}
+
+.third_sec_first_row {
+    padding: 200px 0 280px 0;
+}
+
+.three_one img {
+	width: 900px;
+}
+
+.three_one {
+    position: absolute;
+    z-index: 1;
+    top: 55%;
+    left: 0%;
+    transform: translate(0%,-55%);
+}
+
+/* headphone_section */
+
+.fourth_sec_first_row {
+    padding: 0 0 60px 0;
+}
+
+.four_one img {
+	width: 600px;
+    margin-left: -45px;
+}
+
+.four_two h1{
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 23px;
+    margin-left: -17px;
+    margin-top: 105px;
+}
+
+.four_two p {
+    color: #4f627b;
+    font-size: 10px;
+    white-space: pre-line;
+    padding-bottom: 32px;
+    line-height: 22px;
+}
+
+.btn_view {
+    font-size: 11px;
+    font-weight: 100;
+    background: transparent;
+    color: white;
+    border: 1px solid #2A5DA3;
+    padding: 13px 28px;
+    border-radius: 36px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;    
+}
+
+.btn_view:hover {
+    background: #FF3334;
+    color: white;
+    border: 1px solid #FF3334;
+    text-decoration: none;    
+}
+
+/* feature_section */
+
+.fifth_sec_first_row {
+    
+}
+
+.fifth_sec_first_row h1 {
+    font-size: 32px;
+    color: #fff;
+}
+
+.feature_section {
+    position: relative;
+    z-index: -1;
+}
+.five_two img {
+    width: 600px;
+    margin-top: -95px;
+}
+
+.feature_content {   
+}
+
+.first_row_left img,
+.first_row_right img,
+.second_row_left img,
+.second_row_right img{
+    width: 35px;
+}
+
+.first_row_left h1,
+.first_row_right h1,
+.second_row_right h1{
+    font-size: 18px;
+    color: white;
+    margin-top: -45px;
+    padding: 0;
+}
+
+.second_row_left h1 {
+    font-size: 18px;
+    color: white;
+    margin-top: -45px;
+    padding: 0;
+}
+
+.first_row_left span,
+.first_row_right span,
+.second_row_left span,
+.second_row_right span{
+    color: #2A5DA3;
+}
+
+.first_row_left p,
+.first_row_right p,
+.second_row_left p,
+.second_row_right p{
+    font-size: 10px;
+    color: #737373;
+    white-space: pre-line;
+}
+
+/*.first_row {
+	position: absolute;
+    left: 0%;
+    top: -500px;
+}*/
+
+.first_row_left {
+    position: absolute;
+    left: 10%;
+    top: -500px;
+}
+
+.first_row_left p {
+    position: absolute;
+    left: 3%;
+    top: -15px;
+}
+
+.first_row_right {
+    position: absolute;
+    left: 35%;
+    top: -500px;
+}
+
+.first_row_right p {
+    position: absolute;
+    left: 3%;
+    top: -15px;
+}
+
+/*.second_row {
+	position: absolute;
+    left: 0%;
+    top: -300px;
+}*/
+
+.second_row_left {
+    position: absolute;
+    left: 10%;
+    top: -300px;
+}
+
+.second_row_left p {
+    position: absolute;
+    left: 3%;
+    top: -15px;
+}
+
+.second_row_right {
+    position: absolute;
+    left: 35%;
+    top: -300px;
+}
+
+.second_row_right p {
+    position: absolute;
+    left: 3%;
+    top: -15px;
+}
+
+/* landscape_section */
+
+.landscape_section {
+    padding: 0;
+    margin: 0;
+}
+
+.sixth_sec_first_row {
+    padding: 0 0 100px 0;
+}
+
+.six_one {
+    
+}
+
+.six_one img {
+    width: 34px; 
+}
+
+.six_one h1 {
+    font-size: 24px;
+    color: white;
+    padding-left: 0;
+    padding-bottom: 8px;
+}
+
+.six_one p {
+    color: #737373;
+    white-space: pre-line;
+    line-height: 25px;
+    padding-bottom: 36px;
+}
+
+.btn_click {
+    font-size: 11px;
+    font-weight: 100;
+    background: #FF3334;
+    color: white;
+    border: 1px solid #FF3334;
+    padding: 13px 28px;
+    border-radius: 36px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;    
+}
+
+.btn_click:hover {
+    background: transparent;
+    color: white;
+    border: 1px solid #2A5DA3;
+    text-decoration: none;
+}
+
+.landscape_image {
+    position: absolute;
+    width: 600px;
+    top: -100px;
+    left: 130px;
+}
+
+/* testimonial_section */
+
+.testimonial_section {
+    background-image: url(../img/carousel1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;    
+}
+
+.overlay {
+    position: absolute;
+    content: "";
+    background: rgba(48, 54, 62, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.seventh_sec_first_row {
+    padding: 0 0 60px 0;
+}
+
+.seven_two h1 {
+    color: #DDDDDD;
+    font-size: 18px;
+    font-weight: 400;
+    white-space: pre-line;
+    line-height: normal;
+    padding-top: 12px;
+}
+
+.seven_two p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+} 
+
+.seven_one span i {
+    font-size: 60px;
+    opacity: 0.6;
+    padding: 50px 0 0 0;
+    color: #fff;
+}
+
+.seven_three span i {
+    font-size: 60px;
+    opacity: 0.6;
+    padding: 50px 0 0 70px;
+    color: #fff;
+}
+
+.testi_sec {
+    padding: 75px 0 15px 0;
+}
+
+/* discover_section */
+
+.discover_section {
+    position: relative;
+    content: "";
+    z-index: -1; 
+}
+
+.eighth_sec_first_row {
+    padding: 20px 0 0px 0;
+}
+
+.eight_one h1 {
+    color: #fff;
+    font-size: 28px;
+}
+
+.eight_one p {
+    color: #737373;
+    white-space: pre-line;
+    line-height: 22px;
+    font-size: 10px;
+}
+
+.eighth_sec_second_row {
+    padding: 10px 0 0px 0;
+}
+
+.eight_two img {
+    position: absolute;
+    content: "";
+    width: 100%;
+    left: 0%;
+    top: -140px;
+}
+
+.btn_download {
+    font-size: 11px;
+    font-weight: 100;
+    background: transparent;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #2A5DA3;
+    padding: 13px 28px;
+    border-radius: 36px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;    
+} 
+
+.btn_download:hover {
+    background: #FF3334;
+    color: white;
+    border: 1px solid #FF3334;
+    text-decoration: none;
+}
+
+.eight_two {
+    padding: 0 0 50px 0;
+}
+.eight_two a {
+	position: absolute;
+    left: 255px;
+    top: 500px;
+}
+
+/* footer */
+
+.ninth_sec_first_row {
+    padding: 15px 0;
+}
+
+.nine_one {
+    font-size: 11px;
+    font-weight: 100;
+    color: #2A5DA3;
+    text-decoration: none;
+}
+
+.nine_one ul li a {
+	color: #2A5DA3;
+}
+
+.nine_one ul li a:hover {
+	color: #FF3334;
+    text-decoration: none;
+}
+
+.nine_two p {
+    font-size: 11px;
+    font-weight: 100;
+    color: #2A5DA3;
+}
+
+.nine_two p span {
+    color: #FF3334;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+/* Custom CSS */
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.white_space {
+	white-space: pre-line;
+}
